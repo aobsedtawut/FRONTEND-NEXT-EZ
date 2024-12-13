@@ -2,8 +2,21 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+## CREATE FILE ENV AND PUT ENV   
 
+
+```bash
+NEXTAUTH_SECRET=98E3B2CC28F61492C6934531C828C
+NEXTAUTH_URL=http://localhost:3000
+NEXT_PUBLIC_API_URL=http://localhost:6500
+```
+
+First, run the development server:
+## INSTALL PROJECT 
+
+```bash
+npm install 
+```
 ```bash
 npm run dev
 # or
@@ -13,6 +26,11 @@ pnpm dev
 # or
 bun dev
 ```
+ 
+
+<a href="https://ibb.co/mzgw5Yw"><img src="https://i.ibb.co/3hQqm8q/screencapture-localhost-3001-2024-12-13-18-26-16.png" alt="screencapture-localhost-3001-2024-12-13-18-26-16" border="0"></a>
+
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
