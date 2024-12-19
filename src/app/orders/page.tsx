@@ -17,7 +17,9 @@ export default function OrdersPage() {
   useEffect(() => {
     const fetchOrders = async () => {
       try {
-        const { data } = await api.get(`/api/orders/customer/1`);
+        const { data } = await api.get(
+          `/api/orders/customer/${session?.user?.id}`
+        );
         setOrders(data);
       } catch (error) {
         toast.error("Failed to fetch orders");
